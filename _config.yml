@@ -1,0 +1,12 @@
+title: REDEEMER BLOG
+description: The Blog of Matthew Taylor Marx
+baseurl: /
+url: https://matthewtaylormarx.github.io
+permalink: pretty
+sort_by: year, month
+markdown: kramdown
+kramdown:
+  parse_block_html: true
+plugins:
+  - jekyll-feed
+include: ['_pages']
